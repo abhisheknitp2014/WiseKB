@@ -438,7 +438,7 @@ class Statement{
                 
                 int position=0;
                 
-                for (Entry<ArrayList, ArrayList> entry1 : SRRList.entrySet()) 
+                for (Entry<ArrayList, ArrayList> entry1 : this.SRRList.entrySet()) 
                 {
         			ArrayList<String> termsTitle1 = entry1.getKey();
         			ArrayList<String> termsDesc1 = entry1.getValue();
@@ -503,7 +503,7 @@ class Statement{
                     double TLCDenominator = 0;
                     double sT = 0;
                     double sDU = 0;
-                    for (Entry<ArrayList, ArrayList> entry : SRRList.entrySet()) {
+                    for (Entry<ArrayList, ArrayList> entry : this.SRRList.entrySet()) {
             			ArrayList<String> termsTitle = entry.getKey();
             			ArrayList<String> termsDesc = entry.getValue();
             			
